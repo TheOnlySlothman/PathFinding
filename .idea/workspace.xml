@@ -20,15 +20,46 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="535559e5-ebbd-4352-8625-2261028eb651" name="Default Changelist" comment="Worked on dijkstra.py and priorityqueue.py">
-      <change afterPath="$PROJECT_DIR$/distanced_node.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C#/Pathfinding/GFG.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C#/Pathfinding/Pathfinding.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Pathfinding/Pathfinding.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../C#/Pathfinding/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../C#/Pathfinding/Program.cs" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/JetBrains/PyCharmCE2020.2/python_stubs/-40925516/PIL/__init__.py" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/JetBrains/PyCharmCE2020.2/python_stubs/-40925516/PIL/_imaging.py" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/JetBrains/PyCharmCE2020.2/python_stubs/-40925516/PIL/_imagingcms.py" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/JetBrains/PyCharmCE2020.2/python_stubs/-40925516/PIL/_imagingft.py" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/JetBrains/PyCharmCE2020.2/python_stubs/-40925516/PIL/_imagingmath.py" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/JetBrains/PyCharmCE2020.2/python_stubs/-40925516/PIL/_imagingmorph.py" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/JetBrains/PyCharmCE2020.2/python_stubs/-40925516/PIL/_imagingtk.py" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/JetBrains/PyCharmCE2020.2/python_stubs/-40925516/PIL/_webp.py" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/Microsoft/VSApplicationInsights/vstelAIF-312cbd79-9dbb-4c48-a7da-3cc2a931cb70/20201126082105_b77fccff71fa4ecc8b58e765c8add736.trn" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/Temp/VBCSCompiler/AnalyzerAssemblyLoader/c26cc579c78e4a01b809772bae16e0ee/1/Microsoft.AspNetCore.Analyzers.dll" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/Temp/VBCSCompiler/AnalyzerAssemblyLoader/c26cc579c78e4a01b809772bae16e0ee/2/Microsoft.AspNetCore.Mvc.Analyzers.dll" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/Temp/VBCSCompiler/AnalyzerAssemblyLoader/c26cc579c78e4a01b809772bae16e0ee/3/Microsoft.AspNetCore.Components.Analyzers.dll" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/Temp/VS/AnalyzerAssemblyLoader/406ce7c30aca4e3096e0b6e151bf8baf/1/Microsoft.AspNetCore.Analyzers.dll" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/Temp/VS/AnalyzerAssemblyLoader/406ce7c30aca4e3096e0b6e151bf8baf/2/Microsoft.AspNetCore.Mvc.Analyzers.dll" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/Temp/VS/AnalyzerAssemblyLoader/406ce7c30aca4e3096e0b6e151bf8baf/3/Microsoft.AspNetCore.Components.Analyzers.dll" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/Temp/VS/AnalyzerAssemblyLoader/5f0939dce2a64b3991871ba6f8d845b8/1/Microsoft.AspNetCore.Mvc.Analyzers.dll" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/Temp/VS/AnalyzerAssemblyLoader/5f0939dce2a64b3991871ba6f8d845b8/2/Microsoft.AspNetCore.Analyzers.dll" afterDir="false" />
+      <change afterPath="$USER_HOME$/AppData/Local/Temp/VS/AnalyzerAssemblyLoader/5f0939dce2a64b3991871ba6f8d845b8/3/Microsoft.AspNetCore.Components.Analyzers.dll" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solved Images/braid200_dijkstra_path.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solved Images/braid200_dijkstra_visited.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solved Images/combo400_dijkstra_path.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solved Images/combo400_dijkstra_visited.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solved Images/normal_dijkstra_path.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solved Images/normal_dijkstra_visited.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solved Images/small_dijkstra_path.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solved Images/small_dijkstra_visited.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solved Images/tiny_dijkstra_path.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solved Images/tiny_dijkstra_visited.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node_map.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Python.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/breadthfirst.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/breadthfirst.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms/depthfirst.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/depthfirst.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithms/dijkstra.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/dijkstra.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Algorithms/priorityqueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/priorityqueue.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/algorithms.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/distanced_node.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_map.png" beforeDir="false" />
-      <change beforePath="$USER_HOME$/Pizzaria 3.7z" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mazes.py" beforeDir="false" afterPath="$PROJECT_DIR$/mazes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +74,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1jj3dYT2PJiB5a8X8Giqss25Kd6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -56,20 +87,21 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Pathfinding" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Lasse Lund Madsen\Documents\PathFinding" />
+      <recent name="C:\Users\Lasse Lund Madsen\Documents\CoronaPrograms\Pathfinding\Python\Images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Lasse Lund Madsen\Documents\CoronaPrograms\Pathfinding\Python\Algorithms" />
       <recent name="C:\Users\Lasse Lund Madsen\Documents\CoronaPrograms\Pathfinding\Python\Images" />
       <recent name="C:\Users\Lasse Lund Madsen\Documents\CoronaPrograms\Pathfinding\Python" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Lasse Lund Madsen\Documents\CoronaPrograms\Pathfinding\Python\Images" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Python" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,32 +123,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="mazes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mazes.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.mazes" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -183,87 +189,106 @@
     <MESSAGE value="Worked on nodes" />
     <MESSAGE value="Made depthfirst.py and breadthfirst.py algorithms&#10;made visited node visualization" />
     <MESSAGE value="Worked on dijkstra.py and priorityqueue.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Worked on dijkstra.py and priorityqueue.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
     <state x="395" y="91" key="#Inspections" timestamp="1604490346279">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="395" y="91" key="#Inspections/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1604490346279" />
+    <state x="223" y="67" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606383489485">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" width="1089" height="713" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1606383489485" />
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser" timestamp="1604915465005">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="574" y="128" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1604915465005" />
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1606371766715">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="159" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1606371766715" />
     <state width="1160" height="466" key="DebuggerActiveHint" timestamp="1604990924258">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1160" height="466" key="DebuggerActiveHint/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1604580985538" />
     <state width="1160" height="466" key="DebuggerActiveHint/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1604990924258" />
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1606209269499">
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog" timestamp="1606210275123">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="93" y="93" width="1350" height="638" key="DiffContextDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1606210275123" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1606375078009">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1604305892791" />
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1606209269499" />
-    <state width="1515" height="261" key="GridCell.Tab.0.bottom" timestamp="1604993637958">
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1606375078009" />
+    <state width="1515" height="261" key="GridCell.Tab.0.bottom" timestamp="1606391400928">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1604931437695" />
-    <state width="1515" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1604993637958" />
-    <state width="1515" height="261" key="GridCell.Tab.0.center" timestamp="1604993637958">
+    <state width="1515" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1606391400928" />
+    <state width="1515" height="261" key="GridCell.Tab.0.center" timestamp="1606391400927">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.0.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1604931437695" />
-    <state width="1515" height="261" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1604993637958" />
-    <state width="1515" height="261" key="GridCell.Tab.0.left" timestamp="1604993637958">
+    <state width="1515" height="261" key="GridCell.Tab.0.center/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1606391400927" />
+    <state width="1515" height="261" key="GridCell.Tab.0.left" timestamp="1606391400927">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.0.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1604931437695" />
-    <state width="1515" height="261" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1604993637958" />
-    <state width="1515" height="261" key="GridCell.Tab.0.right" timestamp="1604993637958">
+    <state width="1515" height="261" key="GridCell.Tab.0.left/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1606391400927" />
+    <state width="1515" height="261" key="GridCell.Tab.0.right" timestamp="1606391400928">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.0.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1604931437695" />
-    <state width="1515" height="261" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1604993637958" />
-    <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1604993637959">
+    <state width="1515" height="261" key="GridCell.Tab.0.right/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1606391400928" />
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1606391400928">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1604931437695" />
-    <state width="1515" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1604993637959" />
-    <state width="1515" height="261" key="GridCell.Tab.1.center" timestamp="1604993637958">
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1606391400928" />
+    <state width="1515" height="261" key="GridCell.Tab.1.center" timestamp="1606391400928">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.1.center/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1604931437695" />
-    <state width="1515" height="261" key="GridCell.Tab.1.center/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1604993637958" />
-    <state width="1515" height="261" key="GridCell.Tab.1.left" timestamp="1604993637958">
+    <state width="1515" height="261" key="GridCell.Tab.1.center/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1606391400928" />
+    <state width="1515" height="261" key="GridCell.Tab.1.left" timestamp="1606391400928">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.1.left/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1604931437695" />
-    <state width="1515" height="261" key="GridCell.Tab.1.left/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1604993637958" />
-    <state width="1515" height="261" key="GridCell.Tab.1.right" timestamp="1604993637958">
+    <state width="1515" height="261" key="GridCell.Tab.1.left/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1606391400928" />
+    <state width="1515" height="261" key="GridCell.Tab.1.right" timestamp="1606391400928">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1604931437695" />
-    <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1604993637958" />
-    <state x="277" y="57" key="SettingsEditor" timestamp="1604478644576">
+    <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1606391400928" />
+    <state x="277" y="57" key="SettingsEditor" timestamp="1606375518906">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="57" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1604478644576" />
+    <state x="277" y="57" key="SettingsEditor/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1606375518906" />
     <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1604931417679">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1604931417679" />
-    <state x="509" y="146" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1604325932579">
+    <state x="509" y="146" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1606210263793">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="509" y="146" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1604325932579" />
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606206907380">
+    <state x="509" y="146" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1606210263793" />
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606210010962">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1606206907380" />
-    <state x="-1920" y="70" width="1531" height="522" maximized="true" key="dock-window-1" timestamp="1604497149828">
-      <screen x="-1920" y="0" width="1920" height="1040" />
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1606210010962" />
+    <state x="124" y="-926" width="1103" height="522" maximized="true" key="dock-window-1" timestamp="1606380779013">
+      <screen x="0" y="-1080" width="1920" height="1040" />
     </state>
     <state x="-1920" y="70" width="1531" height="522" maximized="true" key="dock-window-1/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1604497149828" />
+    <state x="124" y="-926" width="1103" height="522" maximized="true" key="dock-window-1/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1606380779013" />
+    <state x="63" y="-839" width="1103" height="522" maximized="true" key="dock-window-2" timestamp="1606391209695">
+      <screen x="0" y="-1080" width="1920" height="1040" />
+    </state>
+    <state x="63" y="-839" width="1103" height="522" maximized="true" key="dock-window-2/0.0.1536.824/0.-1080.1920.1040@0.0.1536.824" timestamp="1606391209695" />
     <state x="479" y="11" width="578" height="801" key="find.popup" timestamp="1604307075993">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -278,13 +303,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Algorithms/dijkstra.py</url>
-          <line>38</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Algorithms/priorityqueue.py</url>
-          <line>54</line>
-          <option name="timeStamp" value="8" />
+          <line>45</line>
+          <option name="timeStamp" value="34" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>

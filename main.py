@@ -91,7 +91,7 @@ def main():
 
 
 def test():
-    start(Algorithms().__getitem__('dijkstra'), Images().__getitem__('tiny'), 'test')
+    start(Algorithms().__getitem__('dijkstra'), Images().__getitem__('normal'), 'algorithm')
 
 
-test()
+main()

@@ -1,6 +1,5 @@
 from abc import ABCMeta, abstractmethod
 import heapq
-from distanced_node import DistancedNode
 
 
 class PriorityQueue:
@@ -15,7 +14,7 @@ class PriorityQueue:
         pass
 
     @abstractmethod
-    def insert(self, node):
+    def insert(self, node, priority):
         pass
 
     @abstractmethod
@@ -27,7 +26,7 @@ class PriorityQueue:
         pass
 
     @abstractmethod
-    def reprioritize(self, node, priority):
+    def redistance(self, node, priority):
         pass
 
     @abstractmethod
@@ -48,11 +47,11 @@ class HeapPQ(PriorityQueue):
     def __len__(self):
         return self.count
 
-    def insert(self, distanced_node):
-        dnode_tuple = distanced_node.key, distanced_node.value
-        if dnode_tuple in self.removed:
-            self.removed.discard(dnode_tuple)
-        heapq.heappush(self.heap, dnode_tuple)
+    def insert(self, node, priority):
+        node_tuple = (node.Distance, priority, node)
+        if node_tuple in self.removed:
+            self.removed.discard(node_tuple)
+        heapq.heappush(self.heap, node_tuple)
         self.count += 1
         return
 
@@ -61,21 +60,23 @@ class HeapPQ(PriorityQueue):
 
     def pop(self):
         while True:
-            (distance, node) = heapq.heappop(self.heap)
-            if (distance, node) in self.removed:
-                self.removed.discard((distance, node))
+            # if self.__len__() > 2 and self.heap[1][0] == self.heap[2][0]:
+            # self.reprioritize(self.heap[2], self.heap[1][0] + 1)
+            node_tuple = heapq.heappop(self.heap)
+            if node_tuple in self.removed:
+                self.removed.discard(node_tuple)
             else:
                 self.count -= 1
-                return DistancedNode(distance, node)
+                return node_tuple
 
-    def reprioritize(self, node, priority):
-        self.remove(node)
-        node.key = priority
-        self.insert(node)
+    def redistance(self, node_tuple, distance):
+        self.remove(node_tuple)
+        # node_tuple[1].distance = priority
+        # self.insert(priority, node_tuple[1])
+        self.insert(node_tuple[2], distance)
 
-    def remove(self, node):
-        value = node.key, node.value
-        if value not in self.removed:
-            self.removed.add(node)
+    def remove(self, node_tuple):
+        if node_tuple not in self.removed and node_tuple in self.heap:
+            self.removed.add(node_tuple)
             self.count -= 1
         return

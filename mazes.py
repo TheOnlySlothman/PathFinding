@@ -3,6 +3,8 @@ class Maze:
         def __init__(self, position):
             self.Position = position
             self.Neighbours = [None, None, None, None]
+            self.Distance = float("inf")
+            self.Previous = None
 
     def node_char_list_add(self, position):
         self.node_char_list[position[1]][position[0]] = 'O'

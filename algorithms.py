@@ -1,6 +1,6 @@
 class Algorithms:
     def __init__(self):
-        self.options = ["depth_first", "breadth_first"]
+        self.options = ["depth_first", "breadth_first", "dijkstra"]
         self.default = "depth_first"
 
     def __getitem__(self, item):
