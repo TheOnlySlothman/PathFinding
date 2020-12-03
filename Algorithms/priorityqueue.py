@@ -14,7 +14,7 @@ class PriorityQueue:
         pass
 
     @abstractmethod
-    def insert(self, node, priority):
+    def insert(self, node, priority, second_priority):
         pass
 
     @abstractmethod
@@ -26,7 +26,7 @@ class PriorityQueue:
         pass
 
     @abstractmethod
-    def redistance(self, node, priority):
+    def reprioritize(self, node, priority):
         pass
 
     @abstractmethod
@@ -47,8 +47,8 @@ class HeapPQ(PriorityQueue):
     def __len__(self):
         return self.count
 
-    def insert(self, node, priority):
-        node_tuple = (node.Distance, priority, node)
+    def insert(self, node, priority, second_priority):
+        node_tuple = (priority, second_priority, node)
         if node_tuple in self.removed:
             self.removed.discard(node_tuple)
         heapq.heappush(self.heap, node_tuple)
@@ -69,11 +69,11 @@ class HeapPQ(PriorityQueue):
                 self.count -= 1
                 return node_tuple
 
-    def redistance(self, node_tuple, distance):
+    def reprioritize(self, node_tuple, priority):
         self.remove(node_tuple)
         # node_tuple[1].distance = priority
         # self.insert(priority, node_tuple[1])
-        self.insert(node_tuple[2], distance)
+        self.insert(node_tuple[2], priority, node_tuple[1])
 
     def remove(self, node_tuple):
         if node_tuple not in self.removed and node_tuple in self.heap:

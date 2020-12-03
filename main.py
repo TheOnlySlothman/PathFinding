@@ -47,33 +47,19 @@ def start(algorithm, input_file, output_name):
     img = Image.open(input_file)
     maze = Maze(img)
 
-    # for x in maze.node_char_list:æ
+    # for x in maze.node_char_list:
     # print(x)
 
     draw_nodes([x.Position for x in maze.node_list], img, 'node_map')
-    print("Total Nodes: " + str(len(maze.node_list)))
+    # print("Total Nodes: " + str(len(maze.node_list)))
 
     visited, path = algorithm(maze)
     draw_nodes([x.Position for x in visited], img, f'./Solved Images/{output_name}_visited')
     draw_path([x.Position for x in path], img, f'./Solved Images/{output_name}_path')
     print("Algorithm Visited Nodes: " + str(len(visited)))
-    print("Algorithm Path: " + str(len(path)))
+    print("Algorithm Path Length: " + str(len(path)))
 
-    # [visited, path] = depth first.start(maze)
-    # draw_nodes([x.Position for x in visited], img, 'depth_first_visited')
-    # draw_path([x.Position for x in path], img, 'depth_first_path')
-    # print("Depth First Visited Nodes: " + str(len(visited)))
-    # print("Depth First Path: " + str(len(path)))
-
-    # [visited, path] = breadth first.start(maze)
-    # draw_nodes([x.Position for x in visited], img, 'breadth_first_visited')
-    # draw_path([x.Position for x in path], img, 'breadth_first_path')
-    # print("Breadth First Visited Nodes: " + str(len(visited)))
-    # print("Breadth First Path: " + str(len(path)))
-
-
-# solve(Path('./Images/tiny.png'))
-# solve(Path('braid200.png'))
+    print("Algorithm Path Distance " + str(path[-1].Distance))
 
 
 def main():
@@ -91,7 +77,7 @@ def main():
 
 
 def test():
-    start(Algorithms().__getitem__('dijkstra'), Images().__getitem__('normal'), 'algorithm')
+    start(Algorithms().__getitem__('a_star'), Images().__getitem__('braid200'), 'algorithm')
 
 
-main()
+test()

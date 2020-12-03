@@ -8,15 +8,12 @@ def solve(maze):
     priority = 1
 
     maze.start.Distance = 0
-    queue.insert(maze.start, maze.start.Distance, priority)
+    d_end = abs(maze.end.Position[0] - maze.start.Position[0]) + abs(maze.end.Position[1] - maze.start.Position[1])
+    queue.insert(maze.start, d_end, priority)
     priority += 1
 
     while queue.count > 0:
         current = queue.pop()
-
-        # prev.append(current.value)
-        # prev[current.value.Position[1]][current.value.Position[0]] = current.value
-
         if current[2] == maze.end:
             break
 
@@ -24,13 +21,13 @@ def solve(maze):
             if x is not None and not x.Previous:
                 d = abs(current[2].Position[0] - x.Position[0]) + abs(current[2].Position[1] - x.Position[1]) \
                     + current[0]
+                d_end = d + abs(maze.end.Position[0] - x.Position[0]) + abs(maze.end.Position[1] - x.Position[1])
                 if d < x.Distance:
-                    # distances[x.Position[1]][x.Position[0]] = d
                     x.Distance = d
                     x.Previous = current[2]
                     if x not in visited_nodes:
                         visited_nodes.append(x)
-                        queue.insert(x, x.Distance, priority)
+                        queue.insert(x, d_end, priority)
                         priority += 1
 
     current = maze.end

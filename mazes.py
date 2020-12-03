@@ -137,5 +137,5 @@ class Maze:
                 # if data[row_above + x] != 0:
                 # top_node[x].Neighbours[1] = n
                 # n.Neighbours[0] = top_node[x]
-        print("Count: " + str(count))
-        print("Length: " + str(len(self.node_list)))
+        print("Maze Count: " + str(count))
+        print("Maze Length: " + str(len(self.node_list)))
