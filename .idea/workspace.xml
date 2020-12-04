@@ -25,19 +25,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="41276923-9c7f-4780-a10c-5f4881ec3cec" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms/Astar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Python.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solved Images/braid200_Astar_path.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solved Images/braid200_Astar_visited.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solved Images/combo400_Astar_path.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solved Images/combo400_Astar_visited.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solved Images/normal_Astar_path.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solved Images/normal_Astar_visited.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solved Images/small_Astar_path.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solved Images/small_Astar_visited.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solved Images/tiny_Astar_path.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solved Images/tiny_Astar_visited.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/dijkstra.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/dijkstra.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/priorityqueue.py" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/priorityqueue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/algorithms.py" beforeDir="false" afterPath="$PROJECT_DIR$/algorithms.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mazes.py" beforeDir="false" afterPath="$PROJECT_DIR$/mazes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_map.png" beforeDir="false" afterPath="$PROJECT_DIR$/node_map.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +93,14 @@
       <option name="presentableId" value="Default" />
       <updated>1606457917927</updated>
     </task>
+    <task id="LOCAL-00001" summary="added 2. priority to priorityqueue.py&#10;dijkstra.py now uses 2. priority&#10;Added Astar.py">
+      <created>1606987985477</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1606987985477</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +114,10 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added 2. priority to priorityqueue.py&#10;dijkstra.py now uses 2. priority&#10;Added Astar.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="added 2. priority to priorityqueue.py&#10;dijkstra.py now uses 2. priority&#10;Added Astar.py" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

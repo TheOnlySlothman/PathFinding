@@ -2,6 +2,7 @@ from PIL import Image
 from mazes import Maze
 from algorithms import Algorithms
 from images import Images
+import time
 
 import argparse
 
@@ -52,12 +53,15 @@ def start(algorithm, input_file, output_name):
 
     draw_nodes([x.Position for x in maze.node_list], img, 'node_map')
     # print("Total Nodes: " + str(len(maze.node_list)))
-
+    t0 = time.time()
     visited, path = algorithm(maze)
+    t1 = time.time()
+
     draw_nodes([x.Position for x in visited], img, f'./Solved Images/{output_name}_visited')
     draw_path([x.Position for x in path], img, f'./Solved Images/{output_name}_path')
     print("Algorithm Visited Nodes: " + str(len(visited)))
     print("Algorithm Path Length: " + str(len(path)))
+    print("Time Elapsed: " + str(t1 - t0))
 
     print("Algorithm Path Distance " + str(path[-1].Distance))
 
@@ -77,7 +81,7 @@ def main():
 
 
 def test():
-    start(Algorithms().__getitem__('a_star'), Images().__getitem__('braid200'), 'algorithm')
+    start(Algorithms().__getitem__('a_star'), Images().__getitem__('combo400'), 'algorithm')
 
 
-test()
+main()
