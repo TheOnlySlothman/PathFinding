@@ -25,4 +25,4 @@ def solve(maze):
         path.appendleft(current)
         current = current.Previous
 
-    return visited, path
+    return visited, path, "breadth first"

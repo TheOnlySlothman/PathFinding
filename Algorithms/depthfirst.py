@@ -27,4 +27,4 @@ def solve(maze):
         # current = prev[current.Position[1]][current.Position[0]]
         current = current.Previous
 
-    return visited, path
+    return visited, path, "depth first"

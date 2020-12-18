@@ -1,6 +1,6 @@
 class Algorithms:
     def __init__(self):
-        self.options = ["depth_first", "breadth_first", "dijkstra", "a_star"]
+        self.options = ["depth_first", "breadth_first", "dijkstra", "a_star", "race"]
         self.default = "depth_first"
 
     def __getitem__(self, item):
@@ -16,3 +16,6 @@ class Algorithms:
         elif item == "a_star":
             from Algorithms import Astar
             return Astar.solve
+        elif item == "race":
+            from Algorithms import pathfindingRace
+            return pathfindingRace.solve

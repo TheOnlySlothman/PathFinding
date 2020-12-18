@@ -23,7 +23,7 @@ def solve(maze):
         for x in current[2].Neighbours:
             if x is not None and not x.Previous:
                 d = abs(current[2].Position[0] - x.Position[0]) + abs(current[2].Position[1] - x.Position[1]) \
-                    + current[0]
+                    + current[2].Distance
                 if d < x.Distance:
                     # distances[x.Position[1]][x.Position[0]] = d
                     x.Distance = d
@@ -39,4 +39,4 @@ def solve(maze):
         path.appendleft(current)
         current = current.Previous
 
-    return visited_nodes, path
+    return visited_nodes, path, "dijkstra"

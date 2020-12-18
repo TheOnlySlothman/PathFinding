@@ -9,6 +9,11 @@ class Maze:
     def node_char_list_add(self, position):
         self.node_char_list[position[1]][position[0]] = 'O'
 
+    def reset(self):
+        for x in self.node_list:
+            x.Distance = float("inf")
+            x.Previous = None
+
     # def node_map(self):
         # return [self.node_char_list[self.width * x:self.width * (x + 1)] for x in range(self.height)]
 
@@ -137,5 +142,4 @@ class Maze:
                 # if data[row_above + x] != 0:
                 # top_node[x].Neighbours[1] = n
                 # n.Neighbours[0] = top_node[x]
-        print("Maze Count: " + str(count))
-        print("Maze Length: " + str(len(self.node_list)))
+        print("Maze Count: " + str(count), "Maze Length: " + str(len(self.node_list)), "", sep="\n")

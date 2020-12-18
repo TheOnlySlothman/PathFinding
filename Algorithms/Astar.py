@@ -20,7 +20,7 @@ def solve(maze):
         for x in current[2].Neighbours:
             if x is not None and not x.Previous:
                 d = abs(current[2].Position[0] - x.Position[0]) + abs(current[2].Position[1] - x.Position[1]) \
-                    + current[0]
+                    + current[2].Distance
                 d_end = d + abs(maze.end.Position[0] - x.Position[0]) + abs(maze.end.Position[1] - x.Position[1])
                 if d < x.Distance:
                     x.Distance = d
@@ -36,4 +36,4 @@ def solve(maze):
         path.appendleft(current)
         current = current.Previous
 
-    return visited_nodes, path
+    return visited_nodes, path, "A*"
