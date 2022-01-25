@@ -2,7 +2,7 @@ class Maze:
     class Node:
         def __init__(self, position):
             self.Position = position
-            self.Neighbours = [None, None, None, None]
+            self.Neighbours = {}
             self.Distance = float("inf")
             self.Previous = None
 
@@ -18,6 +18,7 @@ class Maze:
         # return [self.node_char_list[self.width * x:self.width * (x + 1)] for x in range(self.height)]
 
     def __init__(self, im):
+        self.image = im
         self.width = im.size[0]
         self.height = im.size[1]
         self.node_list = []
@@ -82,8 +83,8 @@ class Maze:
                             count = count+1
                             self.node_char_list_add((x, y))
 
-                            left_node.Neighbours[3] = n
-                            n.Neighbours[2] = left_node
+                            left_node.Neighbours['right'] = n
+                            n.Neighbours['left'] = left_node
                             left_node = n
                         # else:
                         # middle of corridor is not node
@@ -94,8 +95,8 @@ class Maze:
                         count = count+1
                         self.node_char_list_add((x, y))
 
-                        left_node.Neighbours[3] = n
-                        n.Neighbours[2] = left_node
+                        left_node.Neighbours['right'] = n
+                        n.Neighbours['left'] = left_node
                 else:
                     if succeeding:
                         # XOO is node
@@ -118,8 +119,8 @@ class Maze:
                         # middle of corridor is no node
                 if n is not None:
                     if data[row_above + x] != 0:
-                        n.Neighbours[0] = top_node[x]
-                        top_node[x].Neighbours[1] = n
+                        n.Neighbours['up'] = top_node[x]
+                        top_node[x].Neighbours['down'] = n
                         top_node[x] = None
                     if data[row_below + x] != 0:
                         top_node[x] = n
@@ -133,8 +134,8 @@ class Maze:
                 count = count+1
                 self.node_char_list_add((x, self.height - 1))
 
-                top_node[x].Neighbours[1] = self.end
-                self.end.Neighbours[0] = top_node[x]
+                top_node[x].Neighbours['down'] = self.end
+                self.end.Neighbours['up'] = top_node[x]
                 break
 
                 # if data[row_above + x] != 0 or data[row_below + x]:

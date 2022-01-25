@@ -47,36 +47,42 @@ class HeapPQ(PriorityQueue):
     def __len__(self):
         return self.count
 
-    def insert(self, node, priority, second_priority):
-        node_tuple = (priority, second_priority, node)
-        if node_tuple in self.removed:
-            self.removed.discard(node_tuple)
-        heapq.heappush(self.heap, node_tuple)
+    def insert(self, item, priority, unique_id):
+        item_tuple = (priority, unique_id, item)
+        if item_tuple in self.removed:
+            self.removed.discard(item_tuple)
+        heapq.heappush(self.heap, item_tuple)
         self.count += 1
         return
 
     def peek(self):
-        return self.heap[0]
+        while True:
+            item_tuple = self.heap[0]
+            if item_tuple in self.removed:
+                heapq.heappop(self.heap)
+                self.removed.discard(item_tuple)
+            else:
+                return self.heap[0]
 
     def pop(self):
         while True:
             # if self.__len__() > 2 and self.heap[1][0] == self.heap[2][0]:
             # self.reprioritize(self.heap[2], self.heap[1][0] + 1)
-            node_tuple = heapq.heappop(self.heap)
-            if node_tuple in self.removed:
-                self.removed.discard(node_tuple)
+            item_tuple = heapq.heappop(self.heap)
+            if item_tuple in self.removed:
+                self.removed.discard(item_tuple)
             else:
                 self.count -= 1
-                return node_tuple
+                return item_tuple
 
-    def reprioritize(self, node_tuple, priority):
-        self.remove(node_tuple)
+    def reprioritize(self, item_tuple, priority):
+        self.remove(item_tuple)
         # node_tuple[1].distance = priority
         # self.insert(priority, node_tuple[1])
-        self.insert(node_tuple[2], priority, node_tuple[1])
+        self.insert(item_tuple[2], priority, item_tuple[1])
 
-    def remove(self, node_tuple):
-        if node_tuple not in self.removed and node_tuple in self.heap:
-            self.removed.add(node_tuple)
+    def remove(self, item_tuple):
+        if item_tuple not in self.removed and item_tuple in self.heap:
+            self.removed.add(item_tuple)
             self.count -= 1
         return

@@ -2,7 +2,6 @@ from PIL import Image
 from mazes import Maze
 from algorithms import Algorithms
 from images import Images
-import time
 
 import argparse
 
@@ -51,21 +50,20 @@ def start(algorithm, input_file, output_name):
     # for x in maze.node_char_list:
     # print(x)
 
-    draw_nodes([x.Position for x in maze.node_list], img, 'node_map')
+    draw_nodes([x.Position for x in maze.node_list], img, './Solved Images/node_map')
     # print("Total Nodes: " + str(len(maze.node_list)))
-    t0 = time.time()
-    visited, path, name = algorithm(maze)
-    t1 = time.time()
+    result = algorithm(maze)
 
-    if path is not None and visited is not None:
-        draw_nodes([x.Position for x in visited], img, f'./Solved Images/{output_name}_visited')
-        draw_path([x.Position for x in path], img, f'./Solved Images/{output_name}_path')
-        print(name)
-        print("Algorithm Visited Nodes: " + str(len(visited)))
-        print("Algorithm Path Length: " + str(len(path)))
-        print("Time Elapsed: " + str(t1 - t0))
-
-        print("Algorithm Path Distance " + str(path[-1].Distance))
+    if result.path is not None and result.visited is not None:
+        draw_nodes([x.Position for x in result.visited], img, f'./Solved Images/{output_name}_visited')
+        draw_path([x.Position for x in result.path], img, f'./Solved Images/{output_name}_path')
+        print(result.name,
+              "Algorithm Visited Nodes: " + str(len(result.visited)),
+              "Algorithm Path Length: " + str(len(result.path)),
+              "Time Elapsed: " + str(result.completion_time),
+              "Algorithm Path Distance " + str(result.path[-1].Distance),
+              "",
+              sep="\n")
 
 
 def main():
@@ -83,7 +81,17 @@ def main():
 
 
 def test():
-    start(Algorithms().__getitem__('race'), Images().__getitem__('normal'), 'algorithm')
+    start(Algorithms().__getitem__('race'), Images().__getitem__('braid200'), 'algorithm')
 
 
-main()
+def do_all():
+    algorithms = ["depthfirst", "breadthfirst", "dijkstra", "Astar"]
+    images = ["tiny", "braid200", "normal", "small", "combo400"]
+
+    for a in algorithms:
+        for i in images:
+            start(Algorithms().__getitem__(a), Images().__getitem__(i), i + '_' + a)
+
+
+if __name__ == '__main__':
+    main()
