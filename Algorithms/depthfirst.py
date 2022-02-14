@@ -21,7 +21,13 @@ def solve(maze):
             break
 
         # neighbours = reversed([x for x in current.Neighbours if x is not None and x not in visited and x not in stack])
-        neighbours = reversed([x for x in current.Neighbours.values() if x not in visited and x not in stack])
+        # neighbours = reversed([x for x in current.Neighbours.values() if x not in visited and x not in stack])
+        # neighbours = reversed([current.Neighbours[x] for x in sorted(current.Neighbours) if current.Neighbours[x] not in visited and current.Neighbours[x] not in stack])
+        order = ['down', 'right', 'left', 'up']
+        neighbours = reversed(
+            [current.Neighbours[x] for x in sorted(current.Neighbours, key=lambda i: order.index(i)) if
+             current.Neighbours[x] not in visited and current.Neighbours[x] not in stack])
+
         for x in neighbours:
             x.Previous = current
             stack.append(x)
