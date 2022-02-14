@@ -101,4 +101,4 @@ def do_all():
 
 
 if __name__ == '__main__':
-    test2()
+    main()
