@@ -39,7 +39,7 @@ def draw_path(position_list, img, name):
             for x in range(min(a[0], b[0]), max(a[0], b[0])):
                 img_pixels[x, a[1]] = px
         else:
-            print('problem')
+            print(f'problem with {name}.png')
     img.save(f'{name}.png')
 
 
@@ -50,7 +50,7 @@ def start(algorithm, input_file, output_name):
     # for x in maze.node_char_list:
     # print(x)
 
-    draw_nodes([x.Position for x in maze.node_list], img, './Solved Images/node_map')
+    # draw_nodes([x.Position for x in maze.node_list], img, './Solved Images/node_map')
     # print("Total Nodes: " + str(len(maze.node_list)))
     result = algorithm(maze)
 
@@ -81,7 +81,14 @@ def main():
 
 
 def test():
-    start(Algorithms().__getitem__('race'), Images().__getitem__('braid200'), 'algorithm')
+    start(Algorithms().__getitem__('dijkstra'), Images().__getitem__('braid200'), 'algorithm')
+
+
+def test2():
+    images = ["tiny", "braid200", "normal", "small", "combo400"]
+
+    for i in images:
+        start(Algorithms().__getitem__('depthfirst'), Images().__getitem__(i), i + '_' + 'depthfirst')
 
 
 def do_all():
@@ -94,4 +101,4 @@ def do_all():
 
 
 if __name__ == '__main__':
-    main()
+    test2()

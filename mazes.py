@@ -70,7 +70,7 @@ class Maze:
                 n = None
 
                 if current == 0:
-                    # is wall
+                    # is a wall
                     continue
                 # Create vertical connections and nodes
                 if prev:
@@ -124,6 +124,7 @@ class Maze:
                         top_node[x] = None
                     if data[row_below + x] != 0:
                         top_node[x] = n
+                    # n.Neighbours = sorted(n.Neighbours)
 
         final_row = self.width * (self.height - 1)
 

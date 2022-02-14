@@ -1,6 +1,5 @@
 from Algorithms import depthfirst, breadthfirst, dijkstra, Astar
 import threading
-import time
 
 from mazes import Maze
 from result import Result
