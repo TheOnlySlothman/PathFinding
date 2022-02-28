@@ -3,6 +3,8 @@ from mazes import Maze
 from algorithms import Algorithms
 from images import Images
 
+from Algorithms import random_prim
+
 import argparse
 
 
@@ -36,7 +38,7 @@ def draw_path(position_list, img, name):
             for y in range(min(a[1], b[1]), max(a[1], b[1]) + 1):
                 img_pixels[a[0], y] = px
         elif a[1] == b[1]:
-            for x in range(min(a[0], b[0]), max(a[0], b[0])):
+            for x in range(min(a[0], b[0]), max(a[0], b[0]) + 1):
                 img_pixels[x, a[1]] = px
         else:
             print(f'problem with {name}.png')
@@ -81,7 +83,7 @@ def main():
 
 
 def test():
-    start(Algorithms().__getitem__('dijkstra'), Images().__getitem__('braid200'), 'algorithm')
+    start(Algorithms().__getitem__('Astar'), Images().__getitem__('combo400'), 'algorithm')
 
 
 def test2():
